@@ -62,7 +62,7 @@ body{
 .btn{
     text-decoration: none;
     font-weight: bold;
-    color: var(--body_color);
+    color: #fff;
     background-color:var(--button_color);
     padding: 6px 25px;
     border-radius: 8px;
@@ -146,9 +146,6 @@ body{
     background-position: right bottom;
     background-repeat: no-repeat;
     transform:translateX(110px);
-
-
-
 }
 /*--------------------- Comunity Section End ---------------------*/
 
@@ -197,9 +194,6 @@ body{
     display: block;
     width: 50px;
 }
-
-
-
 /*--------------------- Contact us Section End ---------------------*/
 
 /*--------------------- Footer Section Start---------------------*/
