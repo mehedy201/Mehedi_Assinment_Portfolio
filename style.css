@@ -95,6 +95,7 @@ body{
     width: auto;
 }
 .all_rulles .fdiv{
+    flex: 1;
     margin: 10px;
     padding: 30px;
     border-radius: 20px;
