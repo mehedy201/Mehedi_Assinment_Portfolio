@@ -1,0 +1,212 @@
+:root{
+    --body_color: rgb(255, 255, 255);
+    --highlight_color: rgb(184, 0, 159);
+    --button_color: rgb(187, 0, 204);
+    --footer_color: #1e272e;
+}
+/*--------------------- Body ---------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', cursive;
+    background-color: var(--body_color);
+}
+/*--------------------- Container ---------------------*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*--------------------- Cover Section Start---------------------*/
+.cover_area{
+    display: flex;
+    justify-content: space-between;
+}
+.cover_content{
+    width: 50%;
+}
+.cover_title{
+    position: relative;
+}
+.cover_title h1{
+    font-size: 60px;
+    padding-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cover_title::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 5px;
+    height: 106px;
+    border-radius: 30px;
+    background-color: var(--highlight_color);
+}
+.cover_content p{
+    text-align: justify;   
+}
+.heighlight{
+    color: var(--highlight_color);
+}
+.cover_image{
+    height: 340px;
+    width: 318px;
+    margin: auto 0;
+}
+.cover_image img{
+    height: 340px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--body_color);
+    background-color:var(--button_color);
+    padding: 6px 25px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.button_before{
+    margin-bottom: 20px;
+}
+.button_after{
+    margin-top: 30px;
+}
+/*--------------------- Cover Section End ---------------------*/
+
+/*--------------------- Mission Section Start ---------------------*/
+.mission_title{
+    text-align: center;
+}
+.all_title{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.flex_div{
+    display: flex;
+    justify-content: space-between;
+}
+.all_rulles img{
+    height: 120px;
+    width: auto;
+}
+.all_rulles .fdiv{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.all_rulles .mission{
+    background: rgba(255, 238, 0, 0.247);
+}
+.all_rulles .vission{
+    background: rgba(255, 0, 221, 0.171);
+}
+.all_rulles .goals{
+    background: rgba(0, 247, 255, 0.192);
+}
+/*--------------------- Mission Section End ---------------------*/
+
+/*--------------------- About Section Start ---------------------*/
+#about_us{
+    margin-top: 30px;
+}
+.about_image{
+    height: 400px;
+    width: auto;
+}
+.about_image img{
+    height: 400px;
+    width: auto;
+}
+.about_content{
+   padding-left: 30px;
+   padding-top: 50px;
+   width: 50%;
+}
+/*--------------------- Sbout Section End ---------------------*/
+
+/*--------------------- Comunity Section Start ---------------------*/
+#comunity{
+    margin-top: 30px 0px;
+    height: 485px;
+}
+.comunity_content{
+    width: 50%;
+}
+.comunity_image img{
+    height: 390px;
+    width: auto;
+    padding-bottom: 30px;
+
+
+}
+/*--------------------- Comunity Section End ---------------------*/
+
+/*--------------------- Contact us Section Start ---------------------*/
+#contact_section{
+    margin-bottom: 50px;
+}
+#contact_section .contact_image{
+    width: 50%;
+    position: relative;
+}
+.contact_container{
+    box-shadow: rgba(53, 0, 53, 0.39) 2px 2px 10px, rgba(53, 0, 53, 0.39) -1px -1px 10px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.flex_div_1{
+    display: flex;
+    justify-content: space-around;
+}
+.contact_image img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.contact_title{
+    text-align: center;
+}
+.contact_input input{
+    border: none;
+    padding: 20px 30px 5px 10px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin: 4px;
+    outline: none;
+}
+.contact_input textarea{
+    border: none;
+    outline: none;
+    padding: 20px 30px 5px 10px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    width: 400px;
+    height: 100px;
+}
+.submit_button{
+    display: block;
+    width: 50px;
+}
+
+
+
+/*--------------------- Contact us Section End ---------------------*/
+
+/*--------------------- Footer Section Start---------------------*/
+footer{
+    background-color: var(--footer_color);
+    padding: 15px 0px;
+}
+.footer_content h2{
+    text-align: center;
+    color: white;
+}
+.footer_content p{
+    text-align: center;
+    color: white;
+}
+/*--------------------- Footer Section End---------------------*/
