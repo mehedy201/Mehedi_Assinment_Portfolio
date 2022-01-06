@@ -42,7 +42,7 @@ body{
     border-radius: 30px;
     background-color: var(--highlight_color);
 }
-.cover_content p{
+.content_aligment{
     text-align: justify;   
 }
 .heighlight{
@@ -111,24 +111,29 @@ body{
 }
 /*--------------------- Mission Section End ---------------------*/
 
-/*--------------------- About Section Start ---------------------*/
-#about_us{
-    margin-top: 30px;
+/*--------------------- Develop Section Start ---------------------*/
+#develop_us{
+    margin-top: 40px;
 }
-.about_image{
+.develop_image{
     height: 400px;
     width: auto;
+    background-image: url(image/icon/shape-1111.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 70px;
+    transform: translateX(-65px);
 }
-.about_image img{
-    height: 400px;
+.develop_image img{
+    height: 360px;
     width: auto;
 }
-.about_content{
+.develop_content{
    padding-left: 30px;
-   padding-top: 50px;
+   padding-top: 10px;
    width: 50%;
 }
-/*--------------------- Sbout Section End ---------------------*/
+/*--------------------- Develop Section End ---------------------*/
 
 /*--------------------- Comunity Section Start ---------------------*/
 #comunity{
@@ -141,11 +146,11 @@ body{
     height: 360px;
     width: auto;
     padding-bottom: 90px;
-    padding-right: 110px;
+    padding-right: 120px;
     background-image: url(image/icon/shape-1111.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-    transform:translateX(110px);
+    transform:translateX(120px);
 }
 /*--------------------- Comunity Section End ---------------------*/
 
@@ -174,6 +179,10 @@ body{
 }
 .contact_title{
     text-align: center;
+}
+.contact_text{
+    text-align: center;
+    transform: translateY(-20px);
 }
 .contact_input input{
     border: none;
