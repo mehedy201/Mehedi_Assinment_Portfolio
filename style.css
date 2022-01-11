@@ -24,9 +24,7 @@ body{
 .cover_content{
     width: 50%;
 }
-.cover_title{
-    position: relative;
-}
+
 .cover_title h1{
     font-size: 60px;
     padding-left: 20px;
@@ -56,8 +54,6 @@ body{
 .cover_image img{
     height: 340px;
     width: auto;
-    align-items: center;
-    justify-content: center;
 }
 .btn{
     text-decoration: none;
