@@ -30,6 +30,9 @@ body{
     padding-left: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
+.cover_title{
+    position: relative;
+}
 .cover_title::before{
     content: "";
     top: 0;
