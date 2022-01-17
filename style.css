@@ -24,14 +24,13 @@ body{
 .cover_content{
     width: 50%;
 }
-
+.cover_title{
+    position: relative;
+}
 .cover_title h1{
     font-size: 60px;
     padding-left: 20px;
     font-family: 'Josefin Sans', sans-serif;
-}
-.cover_title{
-    position: relative;
 }
 .cover_title::before{
     content: "";
